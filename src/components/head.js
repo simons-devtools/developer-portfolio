@@ -1,19 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Head = ({ title, description, image }) => {
     const { pathname } = useLocation();
 
-    const site = {
-        siteMetadata: {
-            defaultTitle: 'MsimonH',
-            defaultDescription: 'Responsive Gatsby Portfolio',
-            siteUrl: '',
-            defaultImage: image,
-            twitterUsername: '',
+    const { site } = useStaticQuery(graphql`
+        query {
+            site {
+                siteMetadata {
+                    defaultTitle: title
+                    defaultDescription: description
+                    siteUrl
+                    defaultImage: image
+                    twitterUsername
+                }
+            }
         }
-    };
+    `);
+    // console.log(site.siteMetadata);
 
     const {
         defaultTitle,
@@ -57,5 +64,17 @@ const Head = ({ title, description, image }) => {
         </Helmet>
     );
 };
+
+Head.propTypes = {
+    title: PropTypes.string,
+    description: PropTypes.string,
+    image: PropTypes.string,
+};
+
+Head.defaultProps = {
+    title: null,
+    description: null,
+    image: null,
+}
 
 export default Head;

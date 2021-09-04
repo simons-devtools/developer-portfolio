@@ -27,23 +27,40 @@ export const StyledAboutLeft = styled.div`
 export const StyledAboutRight = styled.div`
     position: relative;
     width: 35%;
-    height: 320px;
+    height: 100%;
     @media screen and (max-width: 768px) {
-        /* width: 100%; */
-        height: 300px;
+        width: 80%;
+        height: 100%;
         margin: 0px auto;
     }
+    .imgStyled {
+        filter: blur(1px);
+        border-radius: var(--border-radius);
+        z-index: 10;
+        @media screen and (max-width: 768px) {
+            width: inherit !important;
+            height: inherit !important;
+        }
+        &::after {
+            position: absolute;
+            top: 0;
+            content: '';
+            width: 100%;
+            height: 100%;
+            display: block;
+            background-color: var(--green);
+            opacity: 50%;
+        }
+        &:hover::after {
+            transition: var(--transition);
+            opacity: 0;
+        }
+    }
+    &:hover > span {
+            transform: translate(-5px, -5px);
+            transition: var(--transition);
+        }
 `;
-
-// const Image = styled(img)`
-//     width: 100%;
-//     height: 100%;
-//     position: absolute;
-//     z-index: 10;
-//     border-radius: var(--border-radius);
-//     filter: blur(1px) brightness(0.8);
-//     transition: var(--transition);
-// `;
 
 export const Span = styled.span`
     width: 100%;
@@ -54,5 +71,9 @@ export const Span = styled.span`
     display: inline-block;
     border: 1px solid var(--green);
     border-radius: var(--border-radius);
+    @media screen and (max-width: 768px) {
+        width: inherit !important;
+        height: inherit !important;
+    }
 `;
 

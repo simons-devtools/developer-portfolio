@@ -1,31 +1,39 @@
+// const config = require('./src/config');
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "gatsby portfolio",
+    title: "Simon Hembrom",
+    description: "Simon Hembrom is a software developer who specializes in building (and occasionally designing) exceptional digital experiences.",
+    siteUrl: "https://simonhembrom.netlify.app", // No trailing slash allowed!
+    image: "/site.png", // Path to your image you placed in the "static" folder
+    twitterUsername: "@spsimon3",
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-LFG40ZR8BB",
       },
     },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
+        name: "SimonHembrom",
+        short_name: "SimonHembrom",
+        start_url: "/",
+        // background_color: config.colors.darkNavy,
+        // theme_color: config.colors.navy,
+        display: "minimal-ui",
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-transformer-remark",
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
