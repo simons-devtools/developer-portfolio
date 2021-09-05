@@ -127,7 +127,6 @@ const GlobalStyle = createGlobalStyle`
       content: '';
       display: block;
       position: relative;
-      top: -5px;
       width: 300px;
       height: 1px;
       margin-left: 20px;
@@ -197,6 +196,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   p {
+    color: var(--slate);
     margin: 0 0 15px 0;
     &:last-child,
     &:last-of-type {

@@ -1,17 +1,16 @@
 import styled from 'styled-components';
 
 export const StyledAboutWrapper = styled.section`
-    /* any styles here... */
+    padding: 100px 50px;
+    @media screen and (max-width: 768px) {
+        padding: 100px 0px;
+    }
 `;
 
 export const StyledAbout = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 50px;
+    ${({ theme }) => theme.mixins.flexBetween}
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        padding: 0px;
     }
 `;
 
@@ -34,7 +33,6 @@ export const StyledAboutRight = styled.div`
         margin: 0px auto;
     }
     .imgStyled {
-        filter: blur(1px);
         border-radius: var(--border-radius);
         z-index: 10;
         @media screen and (max-width: 768px) {
@@ -49,6 +47,7 @@ export const StyledAboutRight = styled.div`
             height: 100%;
             display: block;
             background-color: var(--green);
+            /* filter: blur(1px); */
             opacity: 50%;
         }
         &:hover::after {
@@ -77,3 +76,12 @@ export const Span = styled.span`
     }
 `;
 
+export const StyledList = styled.ul`
+    ${({ theme }) => theme.mixins.fancyList}
+    li {
+        color: var(--slate);
+        display: inline-block;
+        width: 50%;
+        margin: 3px 0;
+    }
+`;
