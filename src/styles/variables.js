@@ -18,7 +18,7 @@ const variables = css`
     --font-roboto: 'Roboto', sans-serif;
     --fz-xxs: 12px;
     --fz-xs: 13px;
-    --fz-sm: 15px;
+    --fz-sm: 14px;
     --fz-md: 16px;
     --fz-lg: 18px;
     --fz-xl: 20px;

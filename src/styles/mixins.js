@@ -1,5 +1,16 @@
 
-import { css } from 'styled-components';
+import { css, keyframes } from 'styled-components';
+
+// Create the animation keyframes
+const fadein = keyframes`
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+`;
 
 const button = css`
   color: var(--green);
@@ -36,7 +47,7 @@ const mixins = {
     justify-content: space-between;
     align-items: center;
   `,
-  
+
   link: css`
     display: inline-block;
     text-decoration: none;
@@ -156,8 +167,17 @@ const mixins = {
         position: absolute;
         left: 0;
         color: var(--green);
+        font-size: var(--fz-lg);
       }
     }
+  `,
+
+  fadeIn: css`
+    animation: ${fadein} 1s both;
+  `,
+
+  fadeInAll: css`
+    animation: ${fadein} 5s both;
   `,
 };
 

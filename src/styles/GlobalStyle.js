@@ -105,7 +105,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     position: relative;
-    margin: 0 0 20px 0;
+    margin: 0 0 30px 0;
     width: 100%;
     font-size: var(--fz-heading);
     white-space: nowrap;
