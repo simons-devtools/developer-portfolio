@@ -8,7 +8,9 @@ export const StyledAboutWrapper = styled.section`
 `;
 
 export const StyledAbout = styled.div`
-    ${({ theme }) => theme.mixins.flexBetween}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     @media screen and (max-width: 768px) {
         flex-direction: column;
     }

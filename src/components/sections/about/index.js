@@ -20,7 +20,6 @@ const Index = () => {
             skills: ["JavaScript (ES6)", "Express.js", "Node.js", "Mongodb cloud", "React", "Bootstrap", "Wordpress", "Material ui"],
         },
     ];
-    console.log(aboutData);
 
     return (
         <StyledAboutWrapper>
