@@ -1,6 +1,12 @@
 import React, { Fragment, useState } from 'react';
 import { tabPanels, tabPanelList } from './performance';
-import { StyledListUL, StyledTabPanel, StyledTabUL, StyledWorkWrapper, StyledWorkContainer } from './WorksElements';
+import {
+    StyledListUL,
+    StyledTabPanel,
+    StyledTabUL,
+    StyledWorkWrapper,
+    StyledWorkContainer
+} from './WorksElements';
 
 const Index = () => {
     console.log(tabPanels);
