@@ -6,8 +6,8 @@ export const Email = styled.div`
     letter-spacing: 3px;
     position: fixed;
     right: 0;
-    bottom: -1%;
-    transform: translate(108px, -160px) rotate(90deg);
+    bottom: 0;
+    transform: translate(100px, -140px) rotate(90deg);
     &::after {
         content: '';
         display: inline-block;
