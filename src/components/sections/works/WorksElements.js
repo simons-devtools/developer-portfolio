@@ -52,7 +52,7 @@ export const StyledTabUL = styled.ul`
 `;
 
 export const StyledTabPanel = styled.div`
-    padding: 18px 0 15px 30px;
+    padding: 15px 0 15px 30px;
     ${({ theme }) => theme.mixins.fadeIn}
     p {
         letter-spacing: 2px;
