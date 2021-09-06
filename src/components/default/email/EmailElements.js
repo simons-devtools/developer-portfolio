@@ -16,9 +16,12 @@ export const Email = styled.div`
         background-color: var(--light-slate);
         margin: 0 0 2px 30px;
     }
-    & > a:hover {
-        transform: var(--translateX);
-        transition: var(--transition);
+    a {
+        color: var(--lightest-slate);
+        &:hover {
+            transform: var(--translateX);
+            transition: var(--transition);
+        }
     }
 
     @media screen and (max-width: 768px) {

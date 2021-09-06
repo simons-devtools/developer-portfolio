@@ -50,7 +50,11 @@ const Index = () => {
                                 </NavItem>
                             )
                         }
-                        <Linked href={`mailto:${email}`}>
+                        <Linked
+                            href="https://drive.google.com/file/d/1vnOblp4-24rqx1rVII6UAQyysiVZMwbT/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer noreferrer"
+                        >
                             <SmallButton>Resume</SmallButton>
                         </Linked>
                     </NavMenu>

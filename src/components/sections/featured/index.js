@@ -13,7 +13,7 @@ import {
 
 const Index = () => {
     return (
-        <StyledFeaturedContainer>
+        <StyledFeaturedContainer id="projects">
             <h2 className="numbered-heading">Featured component</h2>
             {featured &&
                 featured.map(({ id, name, image, website, role, article, technology, links }, i) =>

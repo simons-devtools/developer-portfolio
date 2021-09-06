@@ -3,19 +3,19 @@ export const email = 'simon.hembrom52.com';
 export const socialMedia = [
     {
         name: 'GitHub',
-        url: '/',
+        url: 'https://github.com/c-moX',
     },
     {
         name: 'Instagram',
-        url: '/',
+        url: 'https://www.instagram.com/spsimon52',
     },
     {
         name: 'Twitter',
-        url: '/',
+        url: 'https://twitter.com/spsimon3',
     },
     {
         name: 'Linkedin',
-        url: '/',
+        url: 'https://www.linkedin.com/in/simon-hembrom',
     },
     {
         name: 'Codepen',

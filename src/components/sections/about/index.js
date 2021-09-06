@@ -22,7 +22,7 @@ const Index = () => {
     ];
 
     return (
-        <StyledAboutWrapper>
+        <StyledAboutWrapper id="about">
             <h2 className="numbered-heading">About component.</h2>
             <StyledAbout>
                 <StyledAboutLeft>

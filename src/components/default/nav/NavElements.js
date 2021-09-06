@@ -44,7 +44,7 @@ export const NavMenu = styled.ul`
         width: 75%;
         height: 100%;
         padding-top: 30px;
-        background-color: var(--light-navy);
+        background-color: var(--lightest-navy);
         transition: var(--transition);
         overflow: scroll;
         overflow-x: hidden;
@@ -57,6 +57,9 @@ export const NavItem = styled.li`
     letter-spacing: 2px;
     margin-right: 30px;
     counter-increment: item 1;
+    a {
+        color: var(--lightest-slate);
+    }
     &::before {
         content: '0' counter(item) '.';
         display: inline-block;

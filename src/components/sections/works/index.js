@@ -12,7 +12,7 @@ const Index = () => {
     const [isActive, setIsActive] = useState(1);
 
     return (
-        <StyledWorkContainer>
+        <StyledWorkContainer id="works">
             <h2 className="numbered-heading">Where I've Worked</h2>
             <StyledWorkWrapper>
                 <StyledTabUL>
