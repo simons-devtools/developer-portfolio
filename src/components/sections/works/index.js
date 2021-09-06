@@ -9,7 +9,6 @@ import {
 } from './WorksElements';
 
 const Index = () => {
-    console.log(tabPanels);
     const [isActive, setIsActive] = useState(1);
 
     return (

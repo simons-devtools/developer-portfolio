@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IconContainer = styled.ul`
     position: fixed;
-    bottom: -1%;
+    bottom: -2%;
     text-align: center;
     &::after {
         content: '';
