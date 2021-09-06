@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Email, Social, Nav } from './default';
 import { StyledMainContent, StyledBodyContent, GlobalStyle, theme } from '../styles';
-import { Head } from '../components';
+import { Head, Footer } from '../components';
 
 const Layout = ({ children, location }) => {
     return (
@@ -21,6 +21,8 @@ const Layout = ({ children, location }) => {
                         <StyledMainContent id="content">
                             {children}
                         </StyledMainContent>
+
+                        <Footer />
                     </StyledBodyContent>
                 </ThemeProvider>
             </div>
