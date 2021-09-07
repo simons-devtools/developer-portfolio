@@ -14,8 +14,6 @@ import {
 } from './ProjectsElements';
 
 const Index = () => {
-    console.log(projects);
-
     return (
         <StyledProjectContainer>
             <StyledHeader>
