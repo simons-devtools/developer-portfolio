@@ -1,3 +1,8 @@
+![logo](https://user-images.githubusercontent.com/69765697/132418682-dc6a88e4-be8e-48d7-9ede-a4f5ee45d034.png)
+
+
+# simonhembrom.netlify.app
+
 # simon-v1
 [![Netlify Status](https://api.netlify.com/api/v1/badges/430dd24a-5ebf-4bcd-9182-63db45e484e2/deploy-status)](https://app.netlify.com/sites/simonhembrom/deploys)
 
