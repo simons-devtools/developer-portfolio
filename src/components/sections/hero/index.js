@@ -23,7 +23,7 @@ const Index = () => {
             className="email-button"
             href={`mailto:${email}`}
             rel="noreferrer">
-            Check out my course!
+            Contact me for hire!
         </a>
     );
 

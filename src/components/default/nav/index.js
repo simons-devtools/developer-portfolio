@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BiMenuAltRight, BiX } from 'react-icons/bi';
 import { IconLogo } from '../../icons';
-import { email, navLinks } from '../../../config';
+import { navLinks } from '../../../config';
 import { SmallButton, Linked } from '../../shared';
 import {
     Nav,
@@ -17,11 +17,14 @@ const Index = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
     if (openMenu) {
-        document.body.classList.add('blur');
+        // document.body.classList.add('blur');
+        let bodyElement = document.getElementsByTagName('body')[0];
+        bodyElement.className = "blur";
     } else {
-        document.body.classList.remove('blur');
+        // document.body.classList.remove('blur');
+        let bodyElement = document.getElementsByTagName('body')[0];
+        bodyElement.className = "unblur";
     }
-    console.log(openMenu);
 
     return (
         <>
@@ -59,8 +62,8 @@ const Index = () => {
                         </Linked>
                     </NavMenu>
                 </NavContainer>
-            </Nav >
-        </ >
+            </Nav>
+        </>
     );
 };
 
