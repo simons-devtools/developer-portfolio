@@ -8,8 +8,8 @@
   The first iteration of <a href="https://simonhembrom.netlify.app" target="_blank">simonhembrom.netlify.app</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="/" target="_blank">comming soon</a>
+  Next iterations:
+  <a href="https://github.com/c-moX" target="_blank">comming soon</a>
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/simonhembrom/deploys" target="_blank">
