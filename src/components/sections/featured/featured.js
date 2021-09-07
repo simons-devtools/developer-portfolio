@@ -1,6 +1,6 @@
 import theme1 from '../../../images/msimonh.png';
-import theme2 from '../../../Images/child-care.png';
-import theme3 from '../../../Images/rajshopnil.png';
+import theme2 from '../../../images/child-care.png';
+import theme3 from '../../../images/rajshopnil.png';
 
 const featured = [
     {
