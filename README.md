@@ -13,7 +13,7 @@
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/simonhembrom/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/430dd24a-5ebf-4bcd-9182-63db45e484e2/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/fb00d89d-e76e-4344-8da4-d42a77003adb/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
