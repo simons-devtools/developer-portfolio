@@ -1,0 +1,64 @@
+.head-container {
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+
+.big-heading p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3fe6bf;
+    padding-left: 5px;
+    letter-spacing: 3px;
+}
+
+.big-heading h2 {
+    color: #a8b2d1;
+    font-size: 63px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.big-heading h3 {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.touch-me article {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.get-in-touch-btn {
+    font-size: 18px;
+    color: #3fe6bf;
+    text-decoration: none;
+    border: 1px solid #3fe6bf;
+    border-radius: 5px;
+    padding: 16px 32px;
+}
+
+.get-in-touch-btn:hover {
+    background-color: #112240;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+    .head-container {
+        padding-top: 10%;
+        padding-bottom: 30%;
+    }
+    .head-container h2, .head-container h3 {
+        font-size: 28px;
+    }
+    .touch-me article {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

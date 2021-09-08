@@ -1,0 +1,31 @@
+footer {
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: #a8b2d1;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: none;
+}
+
+.my-footer {
+    text-align: center;
+    margin-left: -35px;
+}
+
+@media (max-width: 767px) {
+    .social-media {
+        display: block;
+    }
+    .my-footer {
+        margin-left: 0px;
+    }
+}

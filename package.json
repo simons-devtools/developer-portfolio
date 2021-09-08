@@ -1,42 +1,43 @@
 {
-  "name": "gatsby-portfolio",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
-  "description": "gatsby portfolio",
-  "author": "“c-moX”",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.12.1",
-    "gatsby-plugin-gatsby-cloud": "^3.1.0",
-    "gatsby-plugin-google-analytics": "^3.13.0",
-    "gatsby-plugin-image": "^1.13.0",
-    "gatsby-plugin-manifest": "^3.13.0",
-    "gatsby-plugin-mdx": "^2.13.0",
-    "gatsby-plugin-netlify-cms": "^5.13.0",
-    "gatsby-plugin-react-helmet": "^4.13.0",
-    "gatsby-plugin-sharp": "^3.13.0",
-    "gatsby-plugin-sitemap": "^4.9.0",
-    "gatsby-plugin-styled-components": "^4.13.0",
-    "gatsby-source-filesystem": "^3.13.0",
-    "gatsby-transformer-remark": "^4.10.0",
-    "gatsby-transformer-sharp": "^3.13.0",
-    "netlify-cms-app": "^2.15.40",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "styled-components": "^5.3.1"
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-css-variables": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

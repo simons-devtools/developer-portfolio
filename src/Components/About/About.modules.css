@@ -1,0 +1,125 @@
+.about-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+}
+
+.about-container h1 {
+    color: #ccd6f6;
+    padding-bottom: 10px;
+}
+
+.about-container h1::before {
+    content: "01.";
+    display: inline-block;
+    color: #3fe6bf;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.about-container h1::after {
+    content: "";
+    width: 35%;
+    height: 1px;
+    display: inline-block;
+    background-color: #233554;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-info {
+    flex-basis: 60%;
+    color: #8892b0;
+    padding-right: 40px;
+}
+
+.description article {
+    color:inherit;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.recent-tech p {
+    color: inherit;
+    font-size: 14px;
+}
+
+.recent-tech ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.recent-tech ul li {
+    color: inherit;
+    width: 50%;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.recent-tech ul li::before {
+    content: "▹";
+    display: inline-block;
+    color: #3fe6bf;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.my-photo {
+    position: relative;
+    width: 40%;
+    height: 320px;
+    text-align: center;
+    border: 2px solid #38be9f;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.my-photo img {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #38be9f;
+}
+
+.my-photo img:hover {
+    top: -3%;
+    left: -3%;
+    transition: all 0.3s;
+}
+
+@media (max-width: 767px) {
+    .about-container {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25%;
+    }
+    .about-container h1::after {
+        width: 100%;
+        margin-left: 0;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .about-info {
+        padding-right: 0;
+    }
+    .my-photo {
+        width: 70%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

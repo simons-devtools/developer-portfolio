@@ -1,0 +1,26 @@
+.email-link {
+    transform: translate(3px, -105px) rotate(90deg);
+}
+
+.contact-email a {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-email a:hover, .email-link:hover {
+    color: #3fe6bf;
+    transform: translate(3px, -110px) rotate(90deg);
+    transition: all 0.5s;
+}
+
+.contact-email::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    background-color: #8892b0;
+}
