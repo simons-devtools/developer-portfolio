@@ -1,10 +1,3 @@
-# simon portfolio code overview
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
+# simon-v1
+Site overview:
+![site](https://user-images.githubusercontent.com/69765697/132171354-9956a363-1ea6-4f5d-9607-b65e51cabf1d.png)
