@@ -54,7 +54,7 @@ const Index = () => {
                             )
                         }
                         <Linked
-                            href="https://drive.google.com/file/d/1vnOblp4-24rqx1rVII6UAQyysiVZMwbT/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1-yHgh_ZOpyg9am2KTLBfzaHuntp7ak-7/view?usp=sharing"
                             target="_blank"
                             rel="noreferrer noreferrer"
                         >
