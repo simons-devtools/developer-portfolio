@@ -13,7 +13,7 @@ import {
 const Index = () => {
     return (
         <StyledFeaturedContainer id="projects">
-            <h2 className="numbered-heading">Featured component</h2>
+            <h2 className="numbered-heading">Featured projects</h2>
             {featured &&
                 featured.map(({ id, name, image, website, role, article, technology, links }, i) =>
                     <StyledFeaturedWrapper key={i} id={id}>
