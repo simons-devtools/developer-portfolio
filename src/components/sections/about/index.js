@@ -23,7 +23,7 @@ const Index = () => {
 
     return (
         <StyledAboutWrapper id="about">
-            <h2 className="numbered-heading">About component.</h2>
+            <h2 className="numbered-heading">About Me.</h2>
             <StyledAbout>
                 <StyledAboutLeft>
                     {aboutData &&
