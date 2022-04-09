@@ -9,7 +9,7 @@
 </p>
 <p align="center">
   Next iterations:
-  <a href="https://github.com/c-moX" target="_blank">comming soon</a>
+  <a href="https://github.com/devsimonhem" target="_blank">comming soon</a>
 </p>
 <p align="center">
   <a href="https://app.netlify.com/sites/simonhemrom/deploys" target="_blank">
