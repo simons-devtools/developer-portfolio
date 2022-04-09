@@ -1,9 +1,9 @@
-export const email = 'simon.hembrom52.com';
+export const email = 'dev.simonhemrom@gmail.com';
 
 export const socialMedia = [
     {
         name: 'GitHub',
-        url: 'https://github.com/c-moX',
+        url: 'https://github.com/devsimonhem',
     },
     {
         name: 'Instagram',
@@ -11,11 +11,11 @@ export const socialMedia = [
     },
     {
         name: 'Twitter',
-        url: 'https://twitter.com/spsimon3',
+        url: 'https://twitter.com/devsimonhem',
     },
     {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/simon-hembrom',
+        url: 'https://www.linkedin.com/in/devsimonhem',
     },
     {
         name: 'Codepen',
