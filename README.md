@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/simons-devtools/simonhemrom/main/public/icons/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/simons-devtools/personal-portfolio/main/public/icons/logo.png?token=GHSAT0AAAAAAB73NMGSTIN7AUTF57SWRBWEZA5WK6A" width="100" />
 </div>
 <h1 align="center">
   simonhemrom.vercel.app - v4
@@ -19,7 +19,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/simons-devtools/personal-portfolio/main/public/icons/demo.png)
+![demo](https://raw.githubusercontent.com/simons-devtools/personal-portfolio/main/public/icons/demo.png?token=GHSAT0AAAAAAB73NMGSRHUFIQVQRACVAFDQZA5WLLA)
 
 ## 🚨 Forking this repo (please read!)
 
