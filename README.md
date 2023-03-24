@@ -19,7 +19,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/simons-devtools/simonhemrom/main/public/icons/demo.png)
+![demo](https://raw.githubusercontent.com/simons-devtools/personal-portfolio/main/public/icons/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
