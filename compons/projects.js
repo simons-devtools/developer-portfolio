@@ -100,6 +100,15 @@ const StyledProjects = styled.section`
         flex-direction: column;
         .project-content {
           width: 100%;
+          height: 100%;
+          .project-article {
+            a {
+              margin: 15px 0px;
+            }
+            p {
+              margin-bottom: 15px;
+            }
+          }
         }
       }
     }

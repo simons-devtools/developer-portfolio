@@ -16,9 +16,9 @@ module.exports = {
   }),
   profile: {
     email: "simonhemrom@hotmail.com",
-    website: "https://simonhemrom.netlify.app",
+    website: "https://simonhemrom.vercel.app",
     branch: "https://github.com/simons-devtools",
-    source: "https://github.com/simons-devtools/simonhemrom",
+    source: "https://github.com/simons-devtools/personal-portfolio",
     resume:
       "https://drive.google.com/file/d/1EtChBkMMjxiWuXh6tUvM8lZ_EqVUy9Se/view?usp=sharing",
   },
@@ -47,23 +47,23 @@ module.exports = {
   socialLinks: [
     {
       name: "GitHub",
-      url: "https://github.com/simonhemrom",
+      url: "https://github.com/mrsimonhemrom",
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/devsh_insta",
+      url: "https://instagram.com/mrsimonhemrom",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/devsh_tweet",
+      url: "https://twitter.com/mrsimonhemrom",
     },
     {
       name: "Linkedin",
-      url: "https://linkedin.com/in/devsh_link",
+      url: "https://linkedin.com/in/mrsimonhemrom",
     },
     {
       name: "Codepen",
-      url: "https://codepen.io/simonhemrom",
+      url: "https://codepen.io/mrsimonhemrom",
     },
   ],
   experiences: {
@@ -140,16 +140,16 @@ module.exports = {
   features: [
     {
       role: "Featured Project",
-      name: "Dandaz Ecom (next)",
-      image: "/images/dandaz-ecom.png",
-      website: "https://dandaz.com.bd",
+      name: "Dandaz Commerz (next)",
+      image: "/images/dandaz-commerz.png",
+      website: "https://dandaz.vercel.app",
       technologies: ["Next.js", "MongoDB", "Node.js", "Vercel", "Express"],
       featureds: [
         {
           icon: "GitHub",
-          root: "https://github.com/simons-devtools/dandaz-ecom",
+          root: "https://github.com/simons-devtools/dandaz-commerz",
         },
-        { icon: "External", root: "https://dandaz.com.bd" },
+        { icon: "External", root: "https://dandaz.vercel.app" },
       ],
       article:
         "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
@@ -158,14 +158,14 @@ module.exports = {
       role: "Featured Project",
       name: "Child Care (react)",
       image: "/images/child-care.png",
-      website: "https://simons-childcare.herokuapp.com",
+      website: "https://childcare.vercel.app",
       technologies: ["React.js", "MongoDB", "Node.js", "Heroku", "Express"],
       featureds: [
         {
           icon: "GitHub",
           root: "https://github.com/simons-devtools/child-care",
         },
-        { icon: "External", root: "https://simons-childcare.herokuapp.com" },
+        { icon: "External", root: "https://childcare.vercel.app" },
       ],
       article:
         "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
@@ -174,14 +174,14 @@ module.exports = {
       role: "Featured Project",
       name: "Service Info (react)",
       image: "/images/service-info.png",
-      website: "https://simons-serviceinfo.herokuapp.com",
+      website: "https://serviceinfo.vercel.app",
       technologies: ["React.js", "MongoDB", "Node.js", "Heroku", "Express"],
       featureds: [
         {
           icon: "GitHub",
           root: "https://github.com/simons-devtools/service-info",
         },
-        { icon: "External", root: "https://simons-serviceinfo.herokuapp.com" },
+        { icon: "External", root: "https://serviceinfo.vercel.app" },
       ],
       article:
         "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers",
@@ -190,7 +190,7 @@ module.exports = {
   projects: [
     {
       name: "Food Recipe (search)",
-      stream: "https://simons-food-recipe.netlify.app",
+      stream: "https://simons-food-recipe.herokuapp.com",
       source: "https://github.com/simons-devtools/food-recipe",
       technologies: ["React", "Express", "Node.js"],
       description:
@@ -198,7 +198,7 @@ module.exports = {
     },
     {
       name: "Tourism Agency (travels)",
-      stream: "https://simons-tourism-agency.netlify.app",
+      stream: "https://simons-tourism-agency.herokuapp.com",
       source: "https://github.com/simons-devtools/tourism-agency",
       technologies: ["React", "Express", "Node.js"],
       description:
@@ -206,7 +206,7 @@ module.exports = {
     },
     {
       name: "Hotel Booking (realstate)",
-      stream: "https://simons-hotel-booking.netlify.app",
+      stream: "https://simons-hotel-booking.herokuapp.com",
       source: "https://github.com/simons-devtools/hotel-booking",
       technologies: ["React", "Express", "Node.js"],
       description:

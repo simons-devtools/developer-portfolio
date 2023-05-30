@@ -121,9 +121,10 @@ const StyledFeatures = styled.div`
     .feature-content {
       position: absolute;
       top: 0px;
+      left: 0px;
       z-index: 0;
       .feature-wrapper {
-        width: 100%;
+        width: 350px;
         height: 100%;
         text-align: left;
         padding: 10px 15px;
@@ -137,8 +138,8 @@ const StyledFeatures = styled.div`
             font-size: var(--fz-lg);
           }
           .featured-three {
-            padding: 0px 0px;
             margin: 0px 0px;
+            padding: 0px 0px;
             font-size: var(--fz-xs);
             letter-spacing: 0.4px;
             border-radius: none;
@@ -149,7 +150,7 @@ const StyledFeatures = styled.div`
         .theme-technologies {
           justify-content: flex-start;
           li {
-            margin: 0px 20px 0px 0px;
+            margin: -6px 12px 0px 0px;
           }
         }
       }
