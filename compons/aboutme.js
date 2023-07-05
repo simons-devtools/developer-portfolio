@@ -110,9 +110,9 @@ export default function Aboutme() {
     },
     {
       skills: [
-        "html5, css3, sass, es6, jsx",
+        "HTML5, CSS3, ES6, JSX, Ajax",
         "React and Native, Gatsby, Next",
-        "Tools: GitHub, BitBucket, GitLab",
+        "GitHub, BitBucket, GitLab",
         "Express.js, Node.js, MongoDB",
         "Netlify, Heroku, Vercel, WP",
         "React Bootstrap, Material UI",
