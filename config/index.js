@@ -78,7 +78,7 @@ module.exports = {
     tabPanelContents: [
       {
         name: "@Upstatement open source",
-        start: "April 2021",
+        start: "July 2021",
         end: "Present",
         works: [
           "Write modern, performant, maintainable code for a diverse array of client and internal projects.",
@@ -89,7 +89,7 @@ module.exports = {
       {
         name: "@Programming hero teams",
         start: "January",
-        end: "March 2021",
+        end: "June 2021",
         works: [
           "Here I have got complete idea about html, css and javascript. I also have a lot of design layouts like portfolio, blogs and e-commerce.",
           "For front-end design, I have a good idea about React, Material Wee and Bootstrap.",
