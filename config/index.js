@@ -147,7 +147,7 @@ module.exports = {
       featureds: [
         {
           icon: "GitHub",
-          root: "https://github.com/simons-devtools/dandaz-commerz",
+          root: "https://github.com/simons-devtools/dandaz-with-zone",
         },
         { icon: "External", root: "https://dandaz.vercel.app" },
       ],

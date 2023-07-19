@@ -106,7 +106,7 @@ export default function Footer() {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/simons-devtools/personal-portfolio">
+        <a href="https://github.com/simons-devtools/developer-portfolio">
           <div>Designed &amp; Built by Simon Hemrom</div>
 
           {githubInfo.stars && githubInfo.forks ? (
