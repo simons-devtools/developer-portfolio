@@ -18,7 +18,7 @@ module.exports = {
     email: "simonhemrom@hotmail.com",
     website: "https://simonhemrom.vercel.app",
     branch: "https://github.com/simons-devtools",
-    source: "https://github.com/simons-devtools/personal-portfolio",
+    source: "https://github.com/simons-devtools/developer-portfolio",
     resume:
       "https://drive.google.com/file/d/1EtChBkMMjxiWuXh6tUvM8lZ_EqVUy9Se/view?usp=sharing",
   },
