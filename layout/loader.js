@@ -14,7 +14,7 @@ const StyledLoader = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--dark-navy);
+  background-color: var(--light);
   z-index: 99;
 
   .logo-wrapper {
@@ -79,7 +79,7 @@ export default function Loader({ finishLoading }) {
     const timeout = setTimeout(() => setIsMounted(true), 10);
     animate();
     return () => clearTimeout(timeout);
-  }, []);
+  });
 
   return (
     <StyledLoader className="loader" isMounted={isMounted}>

@@ -11,9 +11,9 @@ const fadein = keyframes`
 `;
 
 const button = css`
-  color: var(--green);
+  color: var(--primary);
   background-color: transparent;
-  border: 1px solid var(--green);
+  border: 1px solid var(--primary);
   border-radius: var(--border-radius);
   font-size: var(--fz-xs);
   font-family: var(--font-roboto);
@@ -56,7 +56,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: var(--green);
+      color: var(--primary);
       outline: 0;
     }
   `,
@@ -67,18 +67,18 @@ const mixins = {
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--transition);
-    color: var(--green);
+    color: var(--primary);
     margin: 0px 5px;
     &:hover,
     &:focus,
     &:active {
-      color: var(--green);
+      color: var(--primary);
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: var(--green) !important;
+        color: var(--primary) !important;
         transition: var(--transition);
       }
     }
@@ -89,7 +89,7 @@ const mixins = {
       height: 1.5px;
       position: relative;
       bottom: 0.37em;
-      background-color: var(--green);
+      background-color: var(--primary);
       transition: var(--transition);
       opacity: 0.5;
     }
@@ -97,12 +97,12 @@ const mixins = {
 
   button,
   smallButton: css`
-    color: var(--green);
+    color: var(--primary);
     background: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--primary);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
-    font-size: var(--fz-xxs);
+    font-size: var(--fz-xs);
     letter-spacing: 1px;
     line-height: 1;
     text-decoration: none;
@@ -120,13 +120,13 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: var(--green);
+    color: var(--primary);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--primary);
     border-radius: var(--border-radius);
     padding: 1.25rem 2.5rem;
     font-size: var(--fz-sm);
-    font-family: var (--font-mono);
+    font-family: var(--font-mono);
     line-height: 1;
     letter-spacing: 1.4px;
     text-decoration: none;
@@ -160,12 +160,15 @@ const mixins = {
       position: relative;
       padding-left: 30px;
       margin-bottom: 10px;
+      color: var(--black);
+      line-height: 1.5;
       &:before {
         content: "▹";
         position: absolute;
-        left: 0;
-        color: var(--green);
-        font-size: var(--fz-lg);
+        top: -14px;
+        left: -8px;
+        color: var(--primary);
+        font-size: var(--fz-heading);
       }
     }
   `,

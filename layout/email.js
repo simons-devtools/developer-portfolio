@@ -5,21 +5,22 @@ import { profile } from "../config";
 import { Side } from "../layout";
 
 const StyledLinkWrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 
   &:after {
     content: "";
     display: block;
-    width: 1px;
+    width: 2px;
     height: 90px;
     margin: 0 auto;
-    background-color: var(--light-slate);
+    background: var(--black);
   }
 
   a {
+    font-weight: 700;
     margin: 40px auto;
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);

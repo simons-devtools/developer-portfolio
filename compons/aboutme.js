@@ -27,7 +27,7 @@ const StyledAboutme = styled.section`
         z-index: 10;
         width: 300px;
         height: 300px;
-        background: var(--green);
+        background: var(--green-tint);
         &::before {
           display: block;
           position: absolute;
@@ -155,7 +155,7 @@ export default function Aboutme() {
               width={300}
               height={300}
               quality={90}
-              alt="profile-img"
+              alt="profile-picture"
               priority
               className="image"
             />

@@ -7,6 +7,9 @@ const StyledProjects = styled.section`
   .projects-container {
     .projects-header {
       text-align: center;
+      .overline {
+        color: var(--primary);
+      }
       .small-heading {
         margin: 0;
       }
@@ -21,7 +24,7 @@ const StyledProjects = styled.section`
         height: 336px;
         margin-top: 11px;
         padding: 30px 20px;
-        background: var(--light-navy);
+        background: var(--light);
         border-radius: var(--border-radius);
         display: flex;
         flex-direction: column;
@@ -32,7 +35,7 @@ const StyledProjects = styled.section`
             width: 40px;
             height: 40px;
             display: block;
-            color: var(--green);
+            color: var(--primary);
           }
           .github > svg {
             width: 25px;
@@ -44,10 +47,10 @@ const StyledProjects = styled.section`
           a {
             margin-bottom: 10px;
             font-size: var(--fz-lg);
-            color: var(--lightest-slate);
+            color: var(--black);
             &:hover,
             &:focus {
-              color: var(--green);
+              color: var(--primary);
               transition: var(--transition);
             }
             &.inline-link {
@@ -69,7 +72,6 @@ const StyledProjects = styled.section`
           }
         }
         &:hover {
-          color: var(--slate);
           transform: var(--translateY);
           transition: var(--transition);
           .title {

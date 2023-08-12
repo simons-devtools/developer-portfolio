@@ -22,25 +22,13 @@ const Globalstyles = createGlobalStyle`
   }
 
   :focus {
-    outline: 2px dashed var(--green);
+    outline: 2px dashed var(--primary);
     outline-offset: 3px;
   }
 
   /* Scrollbar Styles */
-  html {
-    scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
-  }
   body::-webkit-scrollbar {
-    width: 12px;
-  }
-  body::-webkit-scrollbar-track {
-    background: var(--navy);
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
-    border: 3px solid var(--navy);
-    border-radius: 10px;
+    display: none;
   }
 
   body {
@@ -51,7 +39,7 @@ const Globalstyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     background-color: var(--navy);
-    color: var(--slate);
+    color: var(--black);
     font-family: var(--font-sans);
     font-size: var(--fz-md);
     line-height: 1.3;
@@ -143,6 +131,7 @@ const Globalstyles = createGlobalStyle`
 
   .big-heading {
     margin: 0;
+    color: var(--black);
     font-size: clamp(40px, 8vw, 80px);
   }
 
@@ -157,6 +146,7 @@ const Globalstyles = createGlobalStyle`
     position: relative;
     margin: 10px 0 40px;
     width: 100%;
+    color: var(--black);
     font-size: clamp(26px, 5vw, var(--fz-heading));
     white-space: nowrap;
 
@@ -166,9 +156,9 @@ const Globalstyles = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--green);
+      color: var(--primary);
       font-family: var(--font-mono);
-      font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
+      font-size: clamp(var(--fz-xl), 8vw, var(--fz-xxl));
       font-weight: 400;
       
       @media (max-width: 480px) {
@@ -185,7 +175,7 @@ const Globalstyles = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: var(--black);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -245,13 +235,13 @@ const Globalstyles = createGlobalStyle`
     display: inline-block;
     text-decoration: none;
     text-decoration-skip-ink: auto;
-    color: inherit;
+    color: var(--black);
     position: relative;
     transition: var(--transition);
 
     &:hover,
     &:focus {
-      color: var(--green);
+      color: var(--primary);
     }
 
     &.inline-link {
@@ -281,6 +271,7 @@ const Globalstyles = createGlobalStyle`
   }
 
   p {
+    color: var(--black);
     margin: 0 0 15px 0;
 
     &:last-child,

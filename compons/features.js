@@ -39,6 +39,7 @@ const StyledFeatures = styled.div`
         filter: none;
         mix-blend-mode: normal;
         transition: var(--transition);
+        transform: scale();
       }
       &::after {
         display: none;
@@ -55,15 +56,15 @@ const StyledFeatures = styled.div`
       text-align: ${(props) => (props.length === 1 ? "left" : "right")};
       .theme-detail {
         .featured-one {
-          color: var(--green);
+          color: var(--primary);
         }
         .featured-two {
           margin-bottom: 15px;
           font-size: var(--fz-xxl);
-          color: var(--lightest-slate);
+          color: var(--black);
           &:hover,
           &:focus {
-            color: var(--green);
+            color: var(--primary);
             transition: var(--transition);
           }
           &.inline-link {
@@ -74,7 +75,7 @@ const StyledFeatures = styled.div`
           padding: 25px 25px;
           margin: ${(props) =>
             props.length === 1 ? "0px -70px 0px 0px" : "0px 0px 0px -60px"};
-          background: var(--light-navy);
+          background: var(--light);
           border-radius: var(--border-radius);
         }
       }
@@ -98,7 +99,7 @@ const StyledFeatures = styled.div`
             props.length === 1 ? "0px 20px 0px 0px" : "0px 0px 0px 20px"};
           &:hover {
             cursor: pointer;
-            color: var(--green);
+            color: var(--primary);
             transition: var(--transition);
           }
         }
@@ -114,8 +115,7 @@ const StyledFeatures = styled.div`
       width: 100%;
       height: 100%;
       &::after {
-        background: var(--light-navy);
-        /* background: var(--navy-shadow); */
+        background: var(--navy-shadow);
       }
     }
     .feature-content {
@@ -124,20 +124,22 @@ const StyledFeatures = styled.div`
       left: 0px;
       z-index: 0;
       .feature-wrapper {
-        width: 350px;
+        width: 100%;
         height: 100%;
         text-align: left;
-        padding: 10px 15px;
+        padding: 10px 15px 20px;
         .theme-detail {
           .featured-one {
             margin-bottom: 10px;
             font-size: var(--fz-xs);
           }
           .featured-two {
+            color: var(--white);
             margin-bottom: 10px;
             font-size: var(--fz-lg);
           }
           .featured-three {
+            color: var(--white);
             margin: 0px 0px;
             padding: 0px 0px;
             font-size: var(--fz-xs);
@@ -148,9 +150,18 @@ const StyledFeatures = styled.div`
         }
         .theme-source,
         .theme-technologies {
+          color: var(--white);
           justify-content: flex-start;
           li {
             margin: -6px 12px 0px 0px;
+            a {
+              color: var(--white);
+              transition: var(--transition);
+              &:hover,
+              &:focus {
+                color: var(--primary);
+              }
+            }
           }
         }
       }

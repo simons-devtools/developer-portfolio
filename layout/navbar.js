@@ -4,10 +4,10 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { profile, navbarLinks } from "../config";
 import { loaderDelay } from "../src/utils";
 import { Menu } from "../layout";
-import { IconLogo } from "../icons";
 import { useRouter } from "next/router";
 import styled, { css } from "styled-components";
 import { useScrollDirection, usePrefersReducedMotion } from "../src/hooks";
+import { IconLogo } from "../icons";
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -17,7 +17,6 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: rgba(10, 25, 47, 0.85);
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -38,8 +37,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background-color: rgba(10, 25, 47, 0.85);
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        background-color: var(--light);
       `};
 
     ${(props) =>
@@ -48,7 +46,6 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
       `};
   }
 `;
@@ -57,7 +54,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--lightest-slate);
+  color: var(--black);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;
@@ -66,7 +63,7 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
+      color: var(--primary);
       width: 42px;
       height: 42px;
 
@@ -102,17 +99,18 @@ const StyledLinks = styled.div`
 
     li {
       position: relative;
+      font-weight: 500;
       counter-increment: item 1;
       letter-spacing: 1.4px;
 
       a {
         margin-right: 20px;
-        font-size: var(--fz-xxs);
+        font-size: var(--fz-xs);
 
         &:before {
           content: "0" counter(item) ".";
           margin-right: 5px;
-          color: var(--green);
+          color: var(--primary);
           font-size: var(--fz-xxs);
           text-align: right;
         }

@@ -2,7 +2,22 @@ import { css } from "styled-components";
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
+    --white: #ffffff;
+    --light: #f5f5f5;
+    --slate: #808080;
+    --black: #000000;
+
+    --danger: #ea2845;
+    --warning: #fffa00;
+    --success: #64ffda;
+
+    --primary: #705df2;
+    --secondary: #85857c;
+
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --green-tint: rgba(100, 127, 218, 0.1);
+
+    /* --dark-navy: #020c1b;
     --navy: #0a192f;
     --light-navy: #112240;
     --lightest-navy: #233554;
@@ -13,7 +28,7 @@ const variables = css`
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
     --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
+    --green-tint: rgba(100, 255, 218, 0.1); */
 
     --font-sans: "Poppins", "Roboto", sans-serif;
     --font-mono: "Roboto", sans-serif;
