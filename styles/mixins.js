@@ -99,7 +99,7 @@ const mixins = {
   smallButton: css`
     color: var(--primary);
     background: transparent;
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-size: var(--fz-xs);
@@ -122,7 +122,7 @@ const mixins = {
   bigButton: css`
     color: var(--primary);
     background-color: transparent;
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     border-radius: var(--border-radius);
     padding: 1.25rem 2.5rem;
     font-size: var(--fz-sm);

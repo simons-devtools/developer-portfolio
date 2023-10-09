@@ -60,13 +60,13 @@ export default function Header() {
     return () => clearTimeout(timeout);
   });
 
-  const one = <h1>Hi, I’m a professional_</h1>;
+  const one = <h1>Hi, I&apos;m a professional_</h1>;
   const two = <h2 className="big-heading">Web Developer.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I’m a software developer specializing in building (and occasionally
-      designing) exceptional digital experiences. Currently, I’m focused on
+      I&apos;m a software developer specializing in building (and occasionally
+      designing) exceptional digital experiences. Currently, I&apos;m focused on
       building accessible, human-centered products at
       <a href={profile.branch} target="_blank" rel="noreferrer">
         Upstatement.

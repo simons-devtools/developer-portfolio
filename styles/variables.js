@@ -11,11 +11,11 @@ const variables = css`
     --warning: #fffa00;
     --success: #64ffda;
 
-    --primary: #705df2;
+    --primary: #0969da;
     --secondary: #85857c;
 
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --green-tint: rgba(100, 127, 218, 0.1);
+    --green-tint: rgba(9, 105, 218, 0.1);
 
     /* --dark-navy: #020c1b;
     --navy: #0a192f;

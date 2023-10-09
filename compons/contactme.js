@@ -26,7 +26,7 @@ const StyledContact = styled.section`
 export default function Contact() {
   return (
     <StyledContact id="contact-section">
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">What&apos;s Next?</h2>
       <h2 className="title">Get In Touch</h2>
 
       <p>

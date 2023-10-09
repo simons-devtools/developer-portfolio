@@ -152,7 +152,7 @@ module.exports = {
         { icon: "External", root: "https://dandaz.vercel.app" },
       ],
       article:
-        "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
+        "Improve your business webpage and category statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
     },
     {
       role: "Featured Project",
@@ -168,7 +168,7 @@ module.exports = {
         { icon: "External", root: "https://childcare.vercel.app" },
       ],
       article:
-        "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
+        "Improve your business webpage and category statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
     },
     {
       role: "Featured Project",
@@ -184,7 +184,7 @@ module.exports = {
         { icon: "External", root: "https://serviceinfo.vercel.app" },
       ],
       article:
-        "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers",
+        "Improve your business webpage and category statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
     },
   ],
   projects: [
