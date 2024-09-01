@@ -83,7 +83,7 @@ export default function Loader({ finishLoading }) {
 
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
-      <Helmet bodyAttributes={{ class: `hidden` }} />
+      <Helmet bodyAttributes={{ className: `hidden` }} />
 
       <div className="logo-wrapper">
         <IconLoader />

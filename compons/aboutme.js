@@ -29,22 +29,22 @@ const StyledAboutme = styled.section`
         height: 300px;
         background: var(--green-tint);
         &::before {
-          display: block;
           position: absolute;
           bottom: 0px;
           content: "";
           width: 100%;
           height: 100%;
+          display: block;
           border: 1px solid var(--green);
           transform: translate(10px, 10px);
         }
         &::after {
-          display: block;
           position: absolute;
           top: 0px;
           content: "";
           width: 100%;
           height: 100%;
+          display: block;
           border: 1px solid var(--green);
           transform: translate(-10px, -10px);
         }
@@ -103,7 +103,7 @@ export default function Aboutme() {
   const aboutData = [
     {
       text1:
-        "Hello! My name is Simon Hemrom and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!",
+        "Hello! My name is Simon Hemrom and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to try editing custom WordPress themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!",
       text2:
         "Fast forward to today, and I'm looking for opportunities to work in an advertising agency, a start-up, a huge corporation, and a student-led design studio. Nowadays my main focus is to create accessible, inclusive products and digital experiences for different clients.",
       text3: "Here are a few technologies I've been working with recently:",
@@ -151,7 +151,7 @@ export default function Aboutme() {
 
           <div className="right-content">
             <Image
-              src="/icons/profile.png"
+              src="/profile.png"
               width={300}
               height={300}
               quality={90}
