@@ -92,8 +92,8 @@ module.exports = {
         end: "June 2021",
         works: [
           "Here I have got complete idea about html, css and javascript. I also have a lot of design layouts like portfolio, blogs and e-commerce.",
-          "For front-end design, I have a good idea about React, Material Wee and Bootstrap.",
-          "For back-end I know Node.js, Express and Cloud Database MongoDB.",
+          "For front-end design, I have a good idea about React, Material UI and Bootstrap.",
+          "For back-end I know Node.js, Express.js and cloud database MongoDB.",
         ],
       },
       {
@@ -101,7 +101,7 @@ module.exports = {
         start: "October",
         end: "Desember 2020",
         works: [
-          "I got an idea about digital marketing, I got an idea about search engine optimization and I worked at seoclerk .com for three months.",
+          "I got an idea about digital marketing, I got an idea about search engine optimization and I worked at 'seoclerk.com' for three months.",
           "Here are some limitations such as Google Chrome, Microsoft Edge, Mozilla Firefox etc to work on the first page of the search page in different ways.",
           "To seo the website, different parts of the work are done, profile-backlinks, pdf-submission, guest-post, google-map-citation, web-2.0-backlink, mixed-backlink, and infographic-submission, etc.",
         ],
@@ -140,8 +140,8 @@ module.exports = {
   features: [
     {
       role: "Featured Project",
-      name: "Dandaz Commerz (next)",
-      image: "/images/dandaz-commerz.png",
+      name: "Dandaz - Commerce (NEXT)",
+      image: "/features/feature-01.png",
       website: "https://dandaz.vercel.app",
       technologies: ["Next.js", "MongoDB", "Node.js", "Vercel", "Express"],
       featureds: [
@@ -152,36 +152,36 @@ module.exports = {
         { icon: "External", root: "https://dandaz.vercel.app" },
       ],
       article:
-        "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
+        "Improve your e-commerce business web application with Dandaz layouts. Because there have been many kind of pages like register, login, dashboard, categories, documents, different types of product structures, and many more...",
     },
     {
       role: "Featured Project",
-      name: "Child Care (react)",
-      image: "/images/child-care.png",
-      website: "https://childcare.vercel.app",
-      technologies: ["React.js", "MongoDB", "Node.js", "Heroku", "Express"],
+      name: "Consult - Blogger (REACT)",
+      image: "/features/feature-02.png",
+      website: "https://consult.vercel.app",
+      technologies: ["React.js", "MongoDB", "Node.js", "Vercel", "Express"],
       featureds: [
         {
           icon: "GitHub",
-          root: "https://github.com/simons-devtools/child-care",
+          root: "https://github.com/simons-devtools/consult-blogger",
         },
-        { icon: "External", root: "https://childcare.vercel.app" },
+        { icon: "External", root: "https://consult.vercel.app" },
       ],
       article:
         "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
     },
     {
       role: "Featured Project",
-      name: "Service Info (react)",
-      image: "/images/service-info.png",
-      website: "https://serviceinfo.vercel.app",
+      name: "Themx - Template (HTML)",
+      image: "/features/feature-03.png",
+      website: "https://themx.vercel.app",
       technologies: ["React.js", "MongoDB", "Node.js", "Heroku", "Express"],
       featureds: [
         {
           icon: "GitHub",
-          root: "https://github.com/simons-devtools/service-info",
+          root: "https://github.com/simons-devtools/themx-template",
         },
-        { icon: "External", root: "https://serviceinfo.vercel.app" },
+        { icon: "External", root: "https://themx.vercel.app" },
       ],
       article:
         "Improve your GitHub profile and repository statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers",

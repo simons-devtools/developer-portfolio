@@ -65,7 +65,7 @@ export default function Header() {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I’m a software developer specializing in building (and occasionally
+      I’m a web developer (MERN) specializing in building (and occasionally
       designing) exceptional digital experiences. Currently, I’m focused on
       building accessible, human-centered products at
       <a href={profile.branch} target="_blank" rel="noreferrer">

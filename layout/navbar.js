@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { profile, navbarLinks } from "../config";
 import { loaderDelay } from "../src/utils";
+import Image from "next/image";
 import { Menu } from "../layout";
 import { useRouter } from "next/router";
 import styled, { css } from "styled-components";
 import { useScrollDirection, usePrefersReducedMotion } from "../src/hooks";
-import { IconLogo } from "../icons";
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -78,6 +78,12 @@ const StyledNav = styled.nav`
         fill: none;
         transition: var(--transition);
         user-select: none;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
       }
     }
   }
@@ -158,7 +164,14 @@ export default function Navbar({ isHome }) {
   const Logo = (
     <div className="logo" tabIndex="-1">
       <a href={pathname} aria-label="home">
-        <IconLogo />
+        <Image
+          src="/logo.png"
+          width={42}
+          height={42}
+          quality={100}
+          alt="logo"
+          priority
+        />
       </a>
     </div>
   );
