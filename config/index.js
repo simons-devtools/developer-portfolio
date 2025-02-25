@@ -152,11 +152,7 @@ module.exports = {
         { icon: "External", root: "https://dandaz.vercel.app" },
       ],
       article:
-<<<<<<< HEAD
         "Improve your business webpage and category statistics with your top programming language and e-commerce site data visualization. Sort by the shape of their data through your top customers.",
-=======
-        "Improve your e-commerce business web application with Dandaz layouts. Because there have been many kind of pages like register, login, dashboard, categories, documents, different types of product structures, and many more...",
->>>>>>> v4
     },
     {
       role: "Featured Project",
