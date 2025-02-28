@@ -69,15 +69,15 @@ module.exports = {
   experiences: {
     tabPanelItems: [
       "Upstatement",
-      "ProHero",
-      "SeoClerk",
+      "ProgrammingHero",
+      "SEOClerks",
       "Fiverr",
-      "HAcademy",
-      "W3School",
+      "HelloAcademy",
+      "W3Schools",
     ],
     tabPanelContents: [
       {
-        name: "@Upstatement open source",
+        name: "@Upstatement Open Source",
         start: "July 2021",
         end: "Present",
         works: [
@@ -87,7 +87,7 @@ module.exports = {
         ],
       },
       {
-        name: "@Programming hero teams",
+        name: "@Programming Hero Teams",
         start: "January",
         end: "June 2021",
         works: [
@@ -97,26 +97,26 @@ module.exports = {
         ],
       },
       {
-        name: "@Search engine optimaization",
+        name: "@Search Engine Optimaization",
         start: "October",
         end: "Desember 2020",
         works: [
           "I got an idea about digital marketing, I got an idea about search engine optimization and I worked at 'seoclerk.com' for three months.",
           "Here are some limitations such as Google Chrome, Microsoft Edge, Mozilla Firefox etc to work on the first page of the search page in different ways.",
-          "To seo the website, different parts of the work are done, profile-backlinks, pdf-submission, guest-post, google-map-citation, web-2.0-backlink, mixed-backlink, and infographic-submission, etc.",
+          "To SEO the website, different parts of the work are done, Local SEO, On-Page SEO, Off-Page SEO, Technical SEO, Profile Backlink, PDF Submission, Guest Post, Google Map Citation, Web 2.0 Backlink, Mixed Backlink, Infographic Submission, and Link Building etc.",
         ],
       },
       {
-        name: "@Fiverr (business website)",
+        name: "@Fiverr (Business Website)",
         start: "July",
         end: "September 2020",
         works: [
-          "It served as the first online source of income in my life when I got a general idea about php web developers from Hello Academy and also worked as a freelancer.",
+          "It served as the first online source of income in my life when I got a general idea about php web developers from 'Hello Academy' and also worked as a freelancer.",
           "I also got a good idea about WordPress theme customization and built and customized several portfolio and blog sites.",
         ],
       },
       {
-        name: "@Hello academy teams",
+        name: "@Hello Academy Teams",
         start: "January",
         end: "June 2020",
         works: [
@@ -126,7 +126,7 @@ module.exports = {
         ],
       },
       {
-        name: "@W3 school learning platform",
+        name: "@W3 School Learning Platform",
         start: "October",
         end: "Desember 2019",
         works: [
